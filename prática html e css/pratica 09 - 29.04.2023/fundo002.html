@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Praticando Imagens de Fundo</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url(imgfundos/imgfundo.02.jpeg);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #container{
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            
+        }
+        #conteudo{
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        main{
+            background-color: white;
+            background-image: radial-gradient(circle, rgb(212, 207, 207), rgb(39, 153, 168));
+            border-radius: 10px;
+            padding: 50px 20px;
+            box-shadow: inset -2px 3px 4px rgb(1, 24, 32);
+        }
+        h1{
+            font-size: 2.5em;
+            text-align: center;
+            color: rgb(2, 58, 80);
+            text-shadow: 1px 1px 3px black;
+        }
+        h2{
+            text-align: center;
+            color: rgb(2, 37, 37);
+            text-decoration: underline;
+        }
+        h2> div{
+            padding: 50px;
+        }
+        a{
+            color: black;
+            text-decoration: none; 
+        }
+        a:hover{
+            color: white;
+        }
+        a:active{
+            color: rgb(39, 153, 168);
+        }
+        p{
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body id="container">
+    <main id="conteudo">
+        <h1>Exemplo de Imagem de Fundo</h1>
+        <h2>Tecnológico</h2>
+        <a href="fundo003.html">
+            <p>Próxima Página</p>
+        </a>
+        <a href="fundo.html">
+            <p>Início</p>
+        </a>
+        
+    </main>
+</body>
+</html>
