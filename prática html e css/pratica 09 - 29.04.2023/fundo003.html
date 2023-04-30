@@ -27,24 +27,58 @@
             transform: translate(-50%, -50%);
         }
         main{
+            font-family: Georgia, 'Times New Roman', Times, serif;
             background-color: white;
+            background-image: radial-gradient(circle, rgb(212, 207, 207), rgb(26, 89, 161));
+            border-radius: 10px;
+            padding: 50px 20px;
+            box-shadow: inset 2px 1px 5px rgb(13, 48, 88);
         }
         h1,h2{
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
         h1{
-            
+            font-size: 2.5em;
+            text-align: center;
+            color: rgb(9, 30, 54);
+            text-shadow: 1px 1px 3px rgb(212, 209, 209);
         }
+        h2{
+            background-color: aliceblue;
+            border-radius: 10px;
+            border-left: 3px solid rgb(7, 44, 87);
+            border-right: 3px solid rgb(7,44,87);
+            text-align: center;
+            color: rgb(10, 40, 136);  
+        }
+        h2> div{
+            padding: 50px;
+        }
+        a{
+            color: black;
+            text-decoration: none; 
+            font-weight: bolder;
+        }
+        a:hover{
+            color: white;
+        }
+        a:active{
+            color: rgb(39, 153, 168);
+        }
+        p{
+            margin: 10px;
+            font-weight: bolder;
+        }
+
         
     </style>
+
 </head>
 <body id="container">
     <main id="conteudo">
         <h1>Exemplo de Imagem de Fundo</h1>
         <h2>Fundo do Mar</h2>
-        <a href="fundo004.html">
-            <p>Próxima Página</p>
-        </a>
+        <p>Página: <a href="fundo004.html">próxima</a> / <a href="fundo002.html">anterior</a></p>
         <a href="fundo.html">
             <p>Início</p>
         </a>

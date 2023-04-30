@@ -5,8 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praticando Imagens de Fundo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(imgfundos/imgfundo.01.jpg);
+            background-color: black;
+        }
+        #container{
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+        }
+        #conteudo{
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        main{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: white;
+            background-image: linear-gradient(to left,rgb(236, 233, 40), yellow);
+            border-radius: 10px;
+            padding: 50px 20px;
+            box-shadow: inset 2px 1px 5px rgb(145, 131, 131);
+        }
+        h1,h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1{
+            font-size: 2.5em;
+            text-align: center;
+            color: rgb(21, 95, 179);
+            text-shadow: 1px 1px 3px rgb(241, 50, 50);
+        }
+        h2{
+            background-color: aliceblue;
+            border-radius: 0px 10px;
+            border-left: 3px solid rgb(172, 9, 9);
+            border-right: 3px solid rgb(172,9,9);
+            text-align: center;
+            color: rgb(155, 7, 7);  
+        }
+        h2> div{
+            padding: 50px;
+        }
+        a{
+            color: black;
+            text-decoration: none; 
+            font-weight: bolder;
+        }
+        a:hover{
+            color: rgb(155, 7, 7);
+        }
+        a:active{
+            color: rgb(196, 196, 5);
+        }
+        p{
+            margin: 10px;
+        }
+    </style>
 </head>
-<body>
-    
+<body id="container">
+    <main id="conteudo">
+        <h1>Exemplo de Imagem de Fundo</h1>
+        <h2>Fundo Geométrico</h2>
+        <p>Página: <a href="fundo003.html">anterior</a></p>
+        <a href="fundo.html">
+            <p>Início</p>
+        </a>
+    </main>
 </body>
 </html>
