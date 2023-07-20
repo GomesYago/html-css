@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media print{
+    h1{
+        font-size: 1.2em;
+        text-shadow: 1px 1px black;
+    }
+
+    img#impressora{
+        
+    }
+    img#tel{display: none;}
+img#tablet{display: none;}
+img#computador{display: none}
+img#tv{display: none;}
+img#impressora{display: block;}
+
+}
+@media screen and (min-width:768px) and (max-width: 992px) {
+    body{
+        background-image: url(../imagens/mq-tablet.jpg);
+    }
+    img#tel{display: none;}
+img#tablet{display: block;}
+img#computador{display: none}
+img#tv{display: none;}
+img#impressora{display: none;}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/mq-pc.jpg);}
+
+img#tel{display: none;}
+img#tablet{display: none;}
+img#computador{display: block}
+img#tv{display: none;}
+img#impressora{display: none;}
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/mq-tv.jpg);
+        background-position: bottom;
+    }
+    img#tel{display: none;}
+img#tablet{display: none;}
+img#computador{display: none}
+img#tv{display: block;}
+img#impressora{display: none;}
+}
