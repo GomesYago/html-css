@@ -18,11 +18,12 @@ body{
     background-repeat: no-repeat;
 }
 h1{
-    background-color: black;
+    background-color: rgba(161, 154, 154, 0.685);
     color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: inset 5px -3px 10px rgba(0, 0, 0, 0.596);
 }
 img#tel{
     margin: auto;
